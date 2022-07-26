@@ -43,6 +43,7 @@ class VueRouter {
     )
 
     history.listen((route) => {
+      // TODO: 利用数据响应式原理，更新组件
       app._route = route
     })
   }
