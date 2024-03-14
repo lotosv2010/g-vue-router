@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from './plugins/vue-router/index'
-
+debugger
 Vue.use(VueRouter)
 
 const routes = [
@@ -33,19 +33,19 @@ const router = new VueRouter({
   routes
 })
 
-router.beforeEach((to, from, next) => {
-  console.log('beforeEach', 1, to, from)
-  setTimeout(() => {
-    next()
-  }, 1000)
-})
+// router.beforeEach((to, from, next) => {
+//   console.log('beforeEach', 1, to, from)
+//   setTimeout(() => {
+//     next()
+//   }, 1000)
+// })
 
-router.beforeEach((to, from, next) => {
-  console.log('beforeEach', 2, to, from)
-  setTimeout(() => {
-    next()
-  }, 1000)
-})
+// router.beforeEach((to, from, next) => {
+//   console.log('beforeEach', 2, to, from)
+//   setTimeout(() => {
+//     next()
+//   }, 1000)
+// })
 
 
 export default router

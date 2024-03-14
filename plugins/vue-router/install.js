@@ -25,7 +25,7 @@ export default function install(Vue, options){
 
         // 获取 current 属性, 包装成响应式
         Vue.util.defineReactive(this, '_route', this._router.history.current)
-        // console.log(this._route)
+        console.log('this._route', this._route)
       } else {
         // 组件渲染是一层层的渲染
         // 无论是父组件还是子组件，都可以通过 this._routerRoot._router 获取共同实例
