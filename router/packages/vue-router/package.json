@@ -1,0 +1,30 @@
+{
+  "name": "g-vue-router",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/g-vue-router.esm.js",
+  "unpkg": "dist/g-vue-router.global.js",
+  "buildOptions": {
+    "name": "GVueRouter",
+    "formats": [
+      "esm-bundler",
+      "esm-browser",
+      "esm",
+      "global",
+      "cjs"
+    ]
+  },
+  "scripts": {},
+  "keywords": [
+    "vue-next",
+    "vue",
+    "vue3",
+    "vue-router"
+  ],
+  "author": "Robin",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "vue": "^3.5.18"
+  }
+}
