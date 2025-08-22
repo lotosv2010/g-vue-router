@@ -1,0 +1,5 @@
+export const routerKey = Symbol('router')
+export const routeLocationKey = Symbol('route location')
+export const routerViewLocationKey = Symbol('router view location')
+export const viewDepthKey = Symbol('router view depth')
+export const matchedRouteKey = Symbol('router view location matched')

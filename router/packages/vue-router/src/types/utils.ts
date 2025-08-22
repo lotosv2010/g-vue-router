@@ -1,0 +1,1 @@
+export type _Awaitable<T> = T | PromiseLike<T>

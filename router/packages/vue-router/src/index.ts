@@ -1,1 +1,7 @@
-console.log('vue-router')
+export { createWebHistory } from './history/html5'
+export { createWebHashHistory } from './history/hash'
+export { createMemoryHistory } from './history/memory'
+export { createRouter } from './router'
+export { RouterLink} from './RouterLink'
+export { RouterView } from './RouterView'
+export { useRouter, useRoute } from './useApi'
